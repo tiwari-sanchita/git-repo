@@ -1,0 +1,10 @@
+git commands
+git init
+git config --global user.name "Sanchita"
+git config --global user.email sanchiitaa.tiiwaarii@gmail.com
+git config user.name "Sanchita"
+git config user.email sanchiitaa.tiiwaarii@gmail.com
+git add
+git commit -m ""
+git log
+git diff <filename>
