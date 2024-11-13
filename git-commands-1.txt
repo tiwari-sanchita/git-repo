@@ -11,6 +11,6 @@ git commit -m ""						-> commit file to local Git repository
 git log								-> check file log history
 git diff <filename>						-> check changes made to the file with existing file
 git remote add origin <GitHub Repository URL>			-> establish connection to the remote GitHub Repository
-git push origin master						-> push to master branch
+git push origin master/main					-> push to master/main branch
 
 ----------------------------------------------------------------------------------------------------------------------------
