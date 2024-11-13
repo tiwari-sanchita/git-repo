@@ -36,4 +36,13 @@ Person B -> Pull from master/main to private branch, merge code to master/main
 
 Scenario 3:
 1 Person -> Two different features
-Work on different branches
+
+
+		git-repo-branch-1----------------
+		|				|
+		|				|
+		|				|
+---------------Master----------Release----------Master----------Master----------Release----------Master----------
+		|						|
+		|						|Pull and then marge
+	git-repo-branch-2----------------------------------------
