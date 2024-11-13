@@ -1,10 +1,16 @@
-git status -> prints the statis of the Git Repository
-git init -> initializes the Git Repository
-git config --global user.name "Sanchita"
-git config --global user.email sanchiitaa.tiiwaarii@gmail.com
-git config user.name "Sanchita"
-git config user.email sanchiitaa.tiiwaarii@gmail.com
-git add
-git commit -m ""
-git log
-git diff <filename>
+------------------------------------------------------- Git Commands -------------------------------------------------------
+
+git status	 						-> prints the status of the Git Repository
+git init	 						-> initializes the Git Repository
+git config --global user.name "Sanchita"			-> specify username globally
+git config --global user.email sanchiitaa.tiiwaarii@gmail.com	-> specify email globally
+git config user.name "Sanchita"					-> specify username for a particular repository
+git config user.email sanchiitaa.tiiwaarii@gmail.com		-> specify email for a particular repository
+git add								-> add file to staging environment
+git commit -m ""						-> commit file to local Git repository
+git log								-> check file log history
+git diff <filename>						-> check changes made to the file with existing file
+git remote add origin <GitHub Repository URL>			-> establish connection to the remote GitHub Repository
+git push origin master						-> push to master branch
+
+----------------------------------------------------------------------------------------------------------------------------
